@@ -14,7 +14,9 @@ This repository contains the C++ programs I wrote learning C++.
 - Type Conversion
 - Namespaces
 - typedef
+- ternary operator
+- logical operator
 
 ## Purpose
 
-I'm using this repository to track my progress as I learn C++. I'll continue adding new programs and projects as I explore more topics.
+I'm using this repository to track my progress as I learn C++. i am learning it from 'c++ Full Course for free ⚡️' by bro code.
