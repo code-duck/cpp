@@ -1,22 +1,29 @@
-# C++ Learning
+C++ Learning
 
-This repository contains the C++ programs I wrote learning C++.
+This repository contains small C++ practice programs that demonstrate core language concepts. Each file focuses on a specific topic or example, making it easy to review what is covered in this folder.
 
 ## Topics Covered
 
-- Variables and Data Types
-- Arithmetic Operators
-- User Input
+- Basic syntax and input/output (`iostream`, `std::cin`, `std::cout`)
+- Variables, data types, constants (`const`), and type conversion
+- `typedef` / `using` aliases
+- Arithmetic operations and math functions of c++
+- Conditional logic: `if`, `else`, `switch`, ternary operator, logical operators
+- Loops: `for`, `while`, `do-while`, nested loops, `break`, `continue`
+- Functions: declarations, parameters, return values, and function overloading
 - Arrays
-- Functions
-- if Statements
-- switch Statements
-- Type Conversion
+- Strings and string methods
 - Namespaces
-- typedef
-- ternary operator
-- logical operator
+- Random number generation and simple example programs
+
+## Example Programs
+
+- Calculator and arithmetic examples
+- Temperature conversion
+- Triangle computation
+- String merging and manipulation
+- Number guessing and random number generation
 
 ## Purpose
 
-I'm using this repository to track my progress as I learn C++. i am learning it from 'c++ Full Course for free ⚡️' by bro code.
+Track progress through hands-on C++ examples while learning fundamental language concepts.
