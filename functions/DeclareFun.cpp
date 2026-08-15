@@ -6,7 +6,7 @@ void levelCleared(int level);
 
 int main()
 {
-    levelCleared(3);
+    levelCleared(3); //function calling
 }
 
 // function defination
