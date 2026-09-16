@@ -1,6 +1,6 @@
 #include<iostream>
 
-int main_1()
+int main()
 {
     int A[5] = {1, 1, 2, 3, 4};
     
@@ -8,11 +8,14 @@ int main_1()
     std::cout<<sizeof(A)<<std::endl;
     std::cout<<A[2]<<std::endl;
 
+    int size = sizeof(A)/sizeof(A[0]);
+    std::cout << "the size is: "<< size << std::endl;
+
     return 0;
 
 }
 
-int main()
+int main_2()
 {
     int B[5] = {5,34,5,32,1};
 
