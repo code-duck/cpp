@@ -4,7 +4,7 @@ using namespace std;
 
 int main_1()
 {
-    // fill() = fills a rnage of element with a specified vlaue
+    // fill() = fills a range of element with a specified vlaue
     // syntax = fill ( begin, end + size, value)
 
 
