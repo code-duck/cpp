@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cctype>
 
 int main()
 {
@@ -17,7 +18,7 @@ int main()
     int size = sizeof(questions)/sizeof(questions[0]);
 
     char guess;
-    int score;
+    int score = 0 ;
 
     for(int i = 0; i < size; i++)
     {
@@ -34,13 +35,18 @@ int main()
         if(guess == Answerkey[i])
         {
             std::cout << "CORRECT\n";
+            score++;
         }
         else{
             std::cout << "WRONG\n";
-
             std::cout<< "Answer: " << Answerkey[i] << '\n';
         }
+        std::cout << '\n';
     }
+
+    std::cout << "CORRECT GUESSES: " << score << '\n';
+    std::cout << "no. of QUESTIONS: " << size << '\n';
+    std::cout << "SCORE:" << (score/(double)size)*100 << "%";
 
     return 0;
 }
