@@ -29,7 +29,7 @@ int main()
         }
 
         std::cin >> guess; 
-        guess = toupper(guess);
+        guess = toupper(guess); // makes the lower case user input automatically uppercase
 
         if(guess == Answerkey[i])
         {
