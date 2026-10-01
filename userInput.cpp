@@ -43,7 +43,7 @@ int main()
     std::cout << " your age is " << age << std::endl;
     
     /*the ws(whitspaces) this eliminates 
-    any neline characters or whitespaces before any userinputs*/
+    any newline characters or whitespaces before any userinputs*/
 
 
 }
